@@ -1,14 +1,3 @@
-/*
-Desired Output :
-                    * * * * *
-                    * * * * *
-                    * * * * *
-                    * * * * *
-                    * * * * *
-
-This is 5 x 5 solid square pattern output.
-*/
-
 #include <iostream>
 using namespace std;
 int main()
@@ -17,18 +6,17 @@ int main()
     cout << "Enter the size of your solid square : ";
     cin >> n;
 
-    for (int row = 0; row < n; row++)   // Outer Loop
+    for (int row = 0; row < n; row++)  
     {
-        for (int col = 0; col < n; col++)   // Inner Loop
+        for (int col = 0; col < n; col++)   
         {
             cout << "*";
         }
-        cout << endl;   // For new line
+        cout << endl;   
     }
 
     return 0;
 }
-
 
 /*
 
